@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "electron src/main.js"
+    "start": "electron src/main.js",
+    "dev": "nodemon --watch . --exec \"electron src/main.js --debug\""
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/heliosk/screen-recorder#readme",
   "dependencies": {
     "electron": "^9.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
