@@ -1,0 +1,22 @@
+{
+  "name": "screen-recorder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heliosk/screen-recorder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heliosk/screen-recorder/issues"
+  },
+  "homepage": "https://github.com/heliosk/screen-recorder#readme",
+  "dependencies": {
+    "electron": "^9.0.4"
+  }
+}
